@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultivo HidroSustentável - Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <p class="tagline">Agrinho 2026 | Agro forte, futuro sustentável</p>
+            <h1>Equilíbrio Hídrico: O Uso Consciente da Água na Agricultura</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>O Desafio da Irrigação</h2>
+            <p>A agricultura é o setor que mais consome água doce no planeta. Garantir a segurança alimentar de uma população crescente exige uma produção agrícola forte, mas o desperdício desse recurso vital ameaça o nosso futuro sustentável. O grande desafio atual é produzir mais utilizando menos água.</p>
+        </section>
+
+        <section class="card">
+            <h2>Soluções Inteligentes e Sustentabilidade</h2>
+            <p>Técnicas modernas como a <strong>irrigação por gotejamento</strong>, o monitoramento da umidade do solo por sensores e o manejo na hora correta (evitando períodos de sol forte) reduzem drasticamente o desperdício. Essas práticas mantêm a alta produtividade do produtor rural enquanto preservam os lençóis freáticos e os rios da nossa região.</p>
+        </section>
+
+        <section class="card interativo">
+            <h2>Simulador de Economia Hídrica</h2>
+            <p>Descubra quanta água pode ser economizada substituindo a irrigação tradicional por aspersão pelo sistema de gotejamento eficiente.</p>
+            
+            <div class="form-grupo">
+                <label for="area">Tamanho da área de cultivo (em hectares):</label>
+                <input type="number" id="area" min="1" placeholder="Ex: 5" value="1">
+            </div>
+
+            <button onclick="calcularEconomia()">Simular Economia</button>
+
+            <div id="resultado" class="resultado hidden">
+                <h3>Resultado da Simulação:</h3>
+                <p id="texto-resultado"></p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Conclusão</h2>
+            <p>O equilíbrio entre produção e meio ambiente não é apenas possível, é urgente. Ao adotar tecnologias de precisão hídrica, o agricultor protege seu bolso contra a escassez e garante que o campo continue forte e fértil para as próximas gerações.</p>
+        </section>
+
+        <section class="card referencias">
+            <h2>Referências</h2>
+            <ul>
+                <li>EMBRAPA. <em>Manejo de Irrigação e Uso Eficiente da Água</em>. Disponível em local oficial de pesquisa.</li>
+                <li>ANA (Agência Nacional de Águas). <em>Relatório de Conjuntura dos Recursos Hídricos no Brasil</em>.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Projeto Escolar desenvolvido para o Concurso Agrinho.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
